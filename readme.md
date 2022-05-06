@@ -89,10 +89,10 @@ plugins=(zsh-autosuggestions)
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias vi='vim'
+#alias vi='vim'
 alias rs='rails s'
 alias rc='rails c'
-alias code='cd ~/Users/naoto_yamaura_4/Desktop/code'
+#alias code='cd ~/Users/naoto_yamaura_4/Desktop/code'
 
 # 文字コードの指定
 export LANG=ja_JP.UTF-8
@@ -115,8 +115,8 @@ SAVEHIST=100000
 setopt hist_ignore_dups
 
 # キーバインディングをemacs風にする
-bindkey -d
-bindkey -e
+#bindkey -d
+#bindkey -e
 
 # 補完で小文字でも大文字にマッチさせる
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
