@@ -128,3 +128,11 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 - 初心者向け：Zshの導入(https://qiita.com/iwaseasahi/items/a2b00b65ebd06785b443)
 - [Zshメモ : zsh-autosuggestionsで履歴からコマンド候補を表示](https://wonderwall.hatenablog.com/entry/2016/06/25/222803)
+
+
+
+## 入れるアプリ
+- Slack
+- Brave
+- Chrome
+- Spectacle(画面分割:https://www.spectacleapp.com/)
