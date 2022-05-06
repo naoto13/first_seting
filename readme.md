@@ -25,6 +25,7 @@ $ vim ~/.zshrc
 ```
 
 以下を変更
+~/.zshrc
 ```
 ZSH_THEME="candy"
 ```
@@ -36,8 +37,10 @@ $ source ~/.zshrc
 
 以下同様に行う
 
+
 ### シンタックスハイライト
 
+~/.zshrc
 ```
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
@@ -45,18 +48,21 @@ $ source ~/.zshrc
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
-$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
-
-```
+# シンタックスハイライト
 plugins=(git zsh-syntax-highlighting)
 ```
 
-### 補完機能
+
+```sh
+$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
+
+### 補完機能
+```sh
 $ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
 ```
 
+~/.zshrc
 ```
 plugins=(git zsh-syntax-highlighting zsh-completions)
 
@@ -70,7 +76,9 @@ autoload -U compinit && compinit -u
 git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 ```
 
+~/.zshrc
 ```
+# zsh-autosuggestions 予測変換
 plugins=(zsh-autosuggestions)
 ```
 
